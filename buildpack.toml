@@ -67,7 +67,7 @@ id      = "jdk"
 name    = "SapMachine JDK"
 version = "13.0.2"
 uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-13.0.2/sapmachine-jdk-13.0.2_linux-x64_bin.tar.gz"
-sha256  = "placeholder"
+sha256  = "f45604b8f6d42ea80a4eef788a1586c85d1e7fb90af2e91aa111beb7c408d464"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
