@@ -4,7 +4,6 @@ sha256() {
   else
     cat "${ROOT}"/dependency/sha256
   fi
-
 }
 
 uri() {
