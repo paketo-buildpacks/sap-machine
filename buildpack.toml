@@ -29,9 +29,9 @@ jre = "11.*"
 [[metadata.dependencies]]
 id      = "jre"
 name    = "SapMachine JRE"
-version = "11.0.6"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.6.0.1/sapmachine-jre-11.0.6.0.1_linux-x64_bin.tar.gz"
-sha256  = "d90fc415a66856a9c4c5c76564ee7f6dbfd5e2f6950f2697d1788657010ad98a"
+version = "11.0.0"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11/sapmachine-jre-11.0.6_linux-x64_bin.tar.gz"
+sha256  = "e40e11b1bcd408887dd4ff8c6b816b256f7c6cfef6715e0e608ec33dcce7a320"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
