@@ -65,9 +65,9 @@ stacks  = [ "io.buildpacks.stacks.bionic" ]
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "SapMachine JDK"
-version = "14"
-uri     = "placeholder"
-sha256  = "placeholder"
+version = "14.0.0"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14/sapmachine-jdk-14_linux-x64_bin.tar.gz"
+sha256  = "0fc03f9ed9c56672e77192d2ac9100612cb972103ba2e4338f2a136a3458bbf0"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
