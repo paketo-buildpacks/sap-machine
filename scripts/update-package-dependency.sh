@@ -1,6 +1,10 @@
 sha256() {
   if [[ "${DEPENDENCY}" == "jdk" || "${DEPENDENCY}" == "jre" ]]; then
     cat "${ROOT}"/dependency/sapmachine-*_linux-x64_bin.sha256.txt | cut -f 1 -d ' '
+  elif [[ "${DEPENDENCY}" == "jvmkill" ]]; then
+    shasum -a 256 "${ROOT}"/dependency/jvmkill-*.so | cut -f 1 -d ' '
+  elif [[ "${DEPENDENCY}" == "memory-calculator" ]]; then
+    shasum -a 256 "${ROOT}"/dependency/memory-calculator-*.tgz | cut -f 1 -d ' '
   else
     cat "${ROOT}"/dependency/sha256
   fi
