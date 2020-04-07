@@ -13,6 +13,10 @@ sha256() {
 uri() {
   if [[ "${DEPENDENCY}" == "jdk" || "${DEPENDENCY}" == "jre" ]]; then
     echo "https://github.com/SAP/SapMachine/releases/download/sapmachine-$(cat "${ROOT}"/dependency/version)/$(basename "${ROOT}"/dependency/sapmachine-*_linux-x64_bin.tar.gz)"
+  elif [[ "${DEPENDENCY}" == "jvmkill" ]]; then
+    echo "https://github.com/cloudfoundry/java-buildpack-memory-calculator/releases/download/v$(cat "${ROOT}"/dependency/version)/$(basename "${ROOT}"/dependency/jvmkill-*.so)"
+  elif [[ "${DEPENDENCY}" == "memory-calculator" ]]; then
+    echo "https://github.com/cloudfoundry/java-buildpack-memory-calculator/releases/download/v$(cat "${ROOT}"/dependency/version)/$(basename "${ROOT}"/dependency/memory-calculator-*.tgz)"
   else
     cat "${ROOT}"/dependency/uri
   fi
