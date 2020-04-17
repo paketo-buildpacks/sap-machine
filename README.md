@@ -1,4 +1,4 @@
-# `paketo-buildpacks/sap-machine`
+# `gcr.io/paketo-buildpacks/sap-machine`
 The Paketo SapMachine Buildpack is a Cloud Native Buildpack that provides the SapMachine implementations of JREs and JDKs.
 
 This buildpack is designed to work in collaboration with other buildpacks which request contributions of JREs and JDKs.
