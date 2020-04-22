@@ -15,9 +15,10 @@
 api = "0.2"
 
 [buildpack]
-id      = "paketo-buildpacks/sap-machine"
-name    = "Paketo SapMachine Buildpack"
-version = "{{.version}}"
+id       = "paketo-buildpacks/sap-machine"
+name     = "Paketo SapMachine Buildpack"
+version  = "{{.version}}"
+homepage = "https://github.com/paketo-buildpacks/sap-machine"
 
 [[stacks]]
 id = "io.buildpacks.stacks.bionic"
