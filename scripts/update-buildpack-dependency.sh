@@ -3,8 +3,6 @@ sha256() {
     cat "${ROOT}"/dependency/sapmachine-*_linux-x64_bin.sha256.txt | cut -f 1 -d ' '
   elif [[ "${DEPENDENCY}" == "jvmkill" ]]; then
     shasum -a 256 "${ROOT}"/dependency/jvmkill-*.so | cut -f 1 -d ' '
-  elif [[ "${DEPENDENCY}" == "memory-calculator" ]]; then
-    shasum -a 256 "${ROOT}"/dependency/memory-calculator-*.tgz | cut -f 1 -d ' '
   else
     cat "${ROOT}"/dependency/sha256
   fi
@@ -15,8 +13,6 @@ uri() {
     echo "https://github.com/SAP/SapMachine/releases/download/sapmachine-$(cat "${ROOT}"/dependency/version)/$(basename "${ROOT}"/dependency/sapmachine-*_linux-x64_bin.tar.gz)"
   elif [[ "${DEPENDENCY}" == "jvmkill" ]]; then
     echo "https://github.com/cloudfoundry/jvmkill/releases/download/v$(cat "${ROOT}"/dependency/version)/$(basename "${ROOT}"/dependency/jvmkill-*.so)"
-  elif [[ "${DEPENDENCY}" == "memory-calculator" ]]; then
-    echo "https://github.com/cloudfoundry/java-buildpack-memory-calculator/releases/download/v$(cat "${ROOT}"/dependency/version)/$(basename "${ROOT}"/dependency/memory-calculator-*.tgz)"
   else
     cat "${ROOT}"/dependency/uri
   fi
