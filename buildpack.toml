@@ -63,9 +63,9 @@ uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.9
 sha256  = "525287d686ff8454967b64137ec12f27f13a31e1376337f70b32ed57f74b242a"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-[[metadata.dependencies.licenses]]
-type = "GPL-2.0 WITH Classpath-exception-2.0"
-uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
@@ -87,9 +87,9 @@ uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2
 sha256  = "59d7b4b9866a3f9108937161ae9d9bc3885d4bab3f2ffac334c2170a258b7258"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-[[metadata.dependencies.licenses]]
-type = "GPL-2.0 WITH Classpath-exception-2.0"
-uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
@@ -111,9 +111,9 @@ uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15%2B1
 sha256  = "255012c54e984ff6a00f44a1d756e568ab46b4a2ba5caf93673cc3baaffac6cd"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-[[metadata.dependencies.licenses]]
-type = "GPL-2.0 WITH Classpath-exception-2.0"
-uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
