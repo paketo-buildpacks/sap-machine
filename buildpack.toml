@@ -95,8 +95,8 @@ uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 id      = "jre"
 name    = "SapMachine JRE"
 version = "14.0.2"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2%2B12/sapmachine-jre-14.0.2-ea.12_linux-x64_bin.tar.gz"
-sha256  = "1e12cd6c50de6e785cb73004aeede2c5251d3f6bf781d00500999dd7d27617fb"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2/sapmachine-jre-14.0.2_linux-x64_bin.tar.gz"
+sha256  = "06bcfeca40775fb062a4fe23e475ab8eae8c7537f9a702df5ca28009a80a5921"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
