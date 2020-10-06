@@ -56,35 +56,23 @@ description = "the JVM launch flags"
 launch      = true
 
 [[metadata.dependencies]]
-id      = "jre"
-name    = "SapMachine JRE"
-version = "11.0.8"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.8/sapmachine-jre-11.0.8_linux-x64_bin.tar.gz"
-sha256  = "e4fba48b4752c73901ea62dcec6b58e1abcab10ce768499a68c0fe7c3b2b3f99"
+id      = "jdk"
+name    = "SapMachine JDK"
+version = "11.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-  [[metadata.dependencies.licenses]]
-  type = "GPL-2.0 WITH Classpath-exception-2.0"
-  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+[[metadata.dependencies.licenses]]
+type = "GPL-2.0 WITH Classpath-exception-2.0"
+uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
 name    = "SapMachine JRE"
-version = "14.0.2"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2/sapmachine-jre-14.0.2_linux-x64_bin.tar.gz"
-sha256  = "06bcfeca40775fb062a4fe23e475ab8eae8c7537f9a702df5ca28009a80a5921"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
-
-  [[metadata.dependencies.licenses]]
-  type = "GPL-2.0 WITH Classpath-exception-2.0"
-  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-[[metadata.dependencies]]
-id      = "jre"
-name    = "SapMachine JRE"
-version = "15.0.0"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15/sapmachine-jre-15_linux-x64_bin.tar.gz"
-sha256  = "211c57914754b7e558cfceb22c6e02bc5121215e59c7aff6f43d5293f3943378"
+version = "11.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
@@ -94,21 +82,21 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "SapMachine JDK"
-version = "11.0.8"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.8/sapmachine-jdk-11.0.8_linux-x64_bin.tar.gz"
-sha256  = "fb0a39e18ab893da6a27a0b7f09f52b0b049503205d4d1c29a2228cb16372539"
+version = "14.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-  [[metadata.dependencies.licenses]]
-  type = "GPL-2.0 WITH Classpath-exception-2.0"
-  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+[[metadata.dependencies.licenses]]
+type = "GPL-2.0 WITH Classpath-exception-2.0"
+uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
-id      = "jdk"
-name    = "SapMachine JDK"
-version = "14.0.2"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2/sapmachine-jdk-14.0.2_linux-x64_bin.tar.gz"
-sha256  = "59d7b4b9866a3f9108937161ae9d9bc3885d4bab3f2ffac334c2170a258b7258"
+id      = "jre"
+name    = "SapMachine JRE"
+version = "14.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
@@ -119,8 +107,20 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 id      = "jdk"
 name    = "SapMachine JDK"
 version = "15.0.0"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15/sapmachine-jdk-15_linux-x64_bin.tar.gz"
-sha256  = "0f08290a7a1cd39ed03797b2578c79529ca64983f3c48d62f3a4a2c322eb6882"
+uri     = "placeholder"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+
+[[metadata.dependencies.licenses]]
+type = "GPL-2.0 WITH Classpath-exception-2.0"
+uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jre"
+name    = "SapMachine JRE"
+version = "15.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
@@ -130,9 +130,9 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jvmkill"
 name    = "JVMKill Agent"
-version = "1.16.0"
-uri     = "https://github.com/cloudfoundry/jvmkill/releases/download/v1.16.0.RELEASE/jvmkill-1.16.0-RELEASE.so"
-sha256  = "a3092627b082cb3cdbbe4b255d35687126aa604e6b613dcda33be9f7e1277162"
+version = "0.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
