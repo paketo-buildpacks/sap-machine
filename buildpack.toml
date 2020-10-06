@@ -82,9 +82,9 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "SapMachine JDK"
-version = "14.0.0"
-uri     = "placeholder"
-sha256  = "placeholder"
+version = "14.0.2"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2/sapmachine-jdk-14.0.2_linux-x64_bin.tar.gz"
+sha256  = "59d7b4b9866a3f9108937161ae9d9bc3885d4bab3f2ffac334c2170a258b7258"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
 [[metadata.dependencies.licenses]]
