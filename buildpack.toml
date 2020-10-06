@@ -58,9 +58,9 @@ launch      = true
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "SapMachine JDK"
-version = "11.0.0"
-uri     = "placeholder"
-sha256  = "placeholder"
+version = "11.0.9"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.9%2B9/sapmachine-jdk-11.0.9-ea.9_linux-x64_bin.tar.gz"
+sha256  = "525287d686ff8454967b64137ec12f27f13a31e1376337f70b32ed57f74b242a"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
 [[metadata.dependencies.licenses]]
