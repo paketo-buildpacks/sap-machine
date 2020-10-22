@@ -58,9 +58,9 @@ launch      = true
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "SapMachine JDK"
-version = "11.0.8"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.8/sapmachine-jdk-11.0.8_linux-x64_bin.tar.gz"
-sha256  = "fb0a39e18ab893da6a27a0b7f09f52b0b049503205d4d1c29a2228cb16372539"
+version = "11.0.9"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.9/sapmachine-jdk-11.0.9_linux-x64_bin.tar.gz"
+sha256  = "a4879f32cff8c1575364888775e61705f79b37f4ec5135fbd20b220d0f0aecca"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
@@ -70,9 +70,9 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jre"
 name    = "SapMachine JRE"
-version = "11.0.8"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.8/sapmachine-jre-11.0.8_linux-x64_bin.tar.gz"
-sha256  = "e4fba48b4752c73901ea62dcec6b58e1abcab10ce768499a68c0fe7c3b2b3f99"
+version = "11.0.9"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.9/sapmachine-jre-11.0.9_linux-x64_bin.tar.gz"
+sha256  = "423a5ddd873aaf80d96d4602cf3d893da728edd2e8ea29d9250e881be7388d52"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
@@ -106,9 +106,9 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "SapMachine JDK"
-version = "15.0.0"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15/sapmachine-jdk-15_linux-x64_bin.tar.gz"
-sha256  = "0f08290a7a1cd39ed03797b2578c79529ca64983f3c48d62f3a4a2c322eb6882"
+version = "15.0.1"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15.0.1/sapmachine-jdk-15.0.1_linux-x64_bin.tar.gz"
+sha256  = "d871ba2aaf377489668b9e473c381247f48952108598f224fa1484f6f2d9ba99"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
