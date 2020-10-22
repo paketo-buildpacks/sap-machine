@@ -82,30 +82,6 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "SapMachine JDK"
-version = "14.0.2"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2/sapmachine-jdk-14.0.2_linux-x64_bin.tar.gz"
-sha256  = "59d7b4b9866a3f9108937161ae9d9bc3885d4bab3f2ffac334c2170a258b7258"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
-
-  [[metadata.dependencies.licenses]]
-  type = "GPL-2.0 WITH Classpath-exception-2.0"
-  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-[[metadata.dependencies]]
-id      = "jre"
-name    = "SapMachine JRE"
-version = "14.0.2"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-14.0.2/sapmachine-jre-14.0.2_linux-x64_bin.tar.gz"
-sha256  = "06bcfeca40775fb062a4fe23e475ab8eae8c7537f9a702df5ca28009a80a5921"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
-
-  [[metadata.dependencies.licenses]]
-  type = "GPL-2.0 WITH Classpath-exception-2.0"
-  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-[[metadata.dependencies]]
-id      = "jdk"
-name    = "SapMachine JDK"
 version = "15.0.1"
 uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15.0.1/sapmachine-jdk-15.0.1_linux-x64_bin.tar.gz"
 sha256  = "d871ba2aaf377489668b9e473c381247f48952108598f224fa1484f6f2d9ba99"
