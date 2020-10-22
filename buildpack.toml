@@ -118,9 +118,9 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jre"
 name    = "SapMachine JRE"
-version = "15.0.0"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15/sapmachine-jre-15_linux-x64_bin.tar.gz"
-sha256  = "211c57914754b7e558cfceb22c6e02bc5121215e59c7aff6f43d5293f3943378"
+version = "15.0.1"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15.0.1/sapmachine-jre-15.0.1_linux-x64_bin.tar.gz"
+sha256  = "cf9a687c8fb27f7b6c334309ba0f426c0916936fac0c75dc1928f2313396102b"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
