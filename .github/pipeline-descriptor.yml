@@ -1,3 +1,5 @@
+github_token: ${{ secrets.JAVA_GITHUB_TOKEN }}
+
 codeowners:
 - path:  "*"
   owner: "@paketo-buildpacks/java-buildpacks"
@@ -22,7 +24,7 @@ dependencies:
     owner:      SAP
     repository: SapMachine
     tag_filter: sapmachine-(11.*)
-    token:      ${{ secrets.GITHUB_TOKEN }}
+    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
 - name:            JRE 11
   id:              jre
   version_pattern: "11\\.[\\d]+\\.[\\d]+"
@@ -32,7 +34,7 @@ dependencies:
     owner:      SAP
     repository: SapMachine
     tag_filter: sapmachine-(11.*)
-    token:      ${{ secrets.GITHUB_TOKEN }}
+    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
 - name:            JDK 15
   id:              jdk
   version_pattern: "15\\.[\\d]+\\.[\\d]+"
@@ -42,7 +44,7 @@ dependencies:
     owner:      SAP
     repository: SapMachine
     tag_filter: sapmachine-(15.*)
-    token:      ${{ secrets.GITHUB_TOKEN }}
+    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
 - name:            JRE 15
   id:              jre
   version_pattern: "15\\.[\\d]+\\.[\\d]+"
@@ -52,10 +54,10 @@ dependencies:
     owner:      SAP
     repository: SapMachine
     tag_filter: sapmachine-(15.*)
-    token:      ${{ secrets.GITHUB_TOKEN }}
+    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
 - id:   jvmkill
   uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
   with:
     owner:      cloudfoundry
     repository: jvmkill
-    token:      ${{ secrets.GITHUB_TOKEN }}
+    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
