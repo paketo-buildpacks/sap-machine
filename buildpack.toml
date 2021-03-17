@@ -99,6 +99,26 @@ uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-15.0.2
 sha256  = "aff5cc06743f61579de2e87d2b3978e89ebf7a5b068d799287a448d4eca0e97e"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
+[[metadata.dependencies]]
+id      = "jdk"
+name    = "SapMachine JDK"
+version = "16.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jre"
+name    = "SapMachine JRE"
+version = "16.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
   uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
