@@ -30,7 +30,10 @@ uri  = "https://github.com/paketo-buildpacks/sap-machine/blob/main/LICENSE"
 id = "io.buildpacks.stacks.bionic"
 
 [[stacks]]
-id = "org.cloudfoundry.stacks.cflinuxfs3"
+id = "io.paketo.stacks.tiny"
+
+[[stacks]]
+id = "*"
 
 [[metadata.configurations]]
 name        = "BPL_JVM_HEAD_ROOM"
@@ -67,7 +70,7 @@ name    = "SapMachine JDK"
 version = "11.0.12"
 uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.12/sapmachine-jdk-11.0.12_linux-x64_bin.tar.gz"
 sha256  = "f999dd243d00ee037ade946ed9c6c13217636666f4e433f019b635df6eab8f5c"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -79,7 +82,7 @@ name    = "SapMachine JRE"
 version = "11.0.12"
 uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.12/sapmachine-jre-11.0.12_linux-x64_bin.tar.gz"
 sha256  = "8d79c1881f1e826b2b0b0bf082f0c4cd0086d9be78808a04b9a17bf37af133a0"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -91,7 +94,7 @@ name    = "SapMachine JDK"
 version = "16.0.2"
 uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-16.0.2/sapmachine-jdk-16.0.2_linux-x64_bin.tar.gz"
 sha256  = "43831d4ebb9cd6ec9cf6f992406b290b3da409af21cd61b37d80e8a051c1a998"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -103,7 +106,7 @@ name    = "SapMachine JRE"
 version = "16.0.2"
 uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-16.0.2/sapmachine-jre-16.0.2_linux-x64_bin.tar.gz"
 sha256  = "4b0bcb0a15813077a7ecaf3c21041f80f524b759471b9e971896ed7cbc8d58a8"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -115,7 +118,7 @@ name    = "JVMKill Agent"
 version = "1.16.0"
 uri     = "https://github.com/cloudfoundry/jvmkill/releases/download/v1.16.0.RELEASE/jvmkill-1.16.0-RELEASE.so"
 sha256  = "a3092627b082cb3cdbbe4b255d35687126aa604e6b613dcda33be9f7e1277162"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
   type = "Apache-2.0"
