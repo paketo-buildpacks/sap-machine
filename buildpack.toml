@@ -140,8 +140,8 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 id      = "jre"
 name    = "SapMachine JRE"
 version = "17.0.0"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.0/sapmachine-jre-17.0.0_linux-x64_bin.tar.gz"
-sha256  = "bad"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17/sapmachine-jre-17_linux-x64_bin.tar.gz"
+sha256  = "4e0955f39519947c184d40b71871b4a7f0c343043bbd3e5e0b041cc00d70bd05"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
