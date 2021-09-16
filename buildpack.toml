@@ -125,16 +125,28 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
   uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
-id      = "jvmkill"
-name    = "JVMKill Agent"
-version = "1.16.0"
-uri     = "https://github.com/cloudfoundry/jvmkill/releases/download/v1.16.0.RELEASE/jvmkill-1.16.0-RELEASE.so"
-sha256  = "a3092627b082cb3cdbbe4b255d35687126aa604e6b613dcda33be9f7e1277162"
+id      = "jdk"
+name    = "SapMachine JDK"
+version = "17.0.0"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.0/sapmachine-jdk-17.0.0_linux-x64_bin.tar.gz"
+sha256  = "bad"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
-  type = "Apache-2.0"
-  uri  = "https://github.com/cloudfoundry/jvmkill/blob/main/LICENSE"
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jre"
+name    = "SapMachine JRE"
+version = "17.0.0"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.0/sapmachine-jre-17.0.0_linux-x64_bin.tar.gz"
+sha256  = "bad"
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [metadata]
 pre-package   = "scripts/build.sh"

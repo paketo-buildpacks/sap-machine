@@ -57,6 +57,26 @@ dependencies:
     repository: SapMachine
     tag_filter: sapmachine-(16.*)
     token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
+- name:            JDK 17
+  id:              jdk
+  version_pattern: "17\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:       sapmachine-jdk-.+_linux-x64_bin.tar.gz
+    owner:      SAP
+    repository: SapMachine
+    tag_filter: sapmachine-(17.*)
+    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
+- name:            JRE 17
+  id:              jre
+  version_pattern: "17\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:       sapmachine-jre-.+_linux-x64_bin.tar.gz
+    owner:      SAP
+    repository: SapMachine
+    tag_filter: sapmachine-(17.*)
+    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
 - id:   jvmkill
   uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
   with:
