@@ -128,8 +128,8 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 id      = "jdk"
 name    = "SapMachine JDK"
 version = "17.0.0"
-uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.0/sapmachine-jdk-17.0.0_linux-x64_bin.tar.gz"
-sha256  = "bad"
+uri     = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17/sapmachine-jdk-17_linux-x64_bin.tar.gz"
+sha256  = "0d1eb78051983ade81b7190150329c53c866d44a7416acf7c6f9a6f5c9da595e"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
