@@ -77,9 +77,3 @@ dependencies:
     repository: SapMachine
     tag_filter: sapmachine-(17.*)
     token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
-- id:   jvmkill
-  uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
-  with:
-    owner:      cloudfoundry
-    repository: jvmkill
-    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
