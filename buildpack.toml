@@ -176,10 +176,10 @@ api = "0.6"
   [[metadata.dependencies]]
     id = "jdk"
     name = "SapMachine JDK"
-    sha256 = "0d1eb78051983ade81b7190150329c53c866d44a7416acf7c6f9a6f5c9da595e"
+    sha256 = "247fbd090b4584f725ab92e5747d31a181ff77fbb31dcaea449574862ce5a249"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17/sapmachine-jdk-17_linux-x64_bin.tar.gz"
-    version = "17.0.0"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.1/sapmachine-jdk-17.0.1_linux-x64_bin.tar.gz"
+    version = "17.0.1"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
