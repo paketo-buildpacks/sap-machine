@@ -152,30 +152,6 @@ api = "0.6"
   [[metadata.dependencies]]
     id = "jdk"
     name = "SapMachine JDK"
-    sha256 = "43831d4ebb9cd6ec9cf6f992406b290b3da409af21cd61b37d80e8a051c1a998"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-16.0.2/sapmachine-jdk-16.0.2_linux-x64_bin.tar.gz"
-    version = "16.0.2"
-
-    [[metadata.dependencies.licenses]]
-      type = "GPL-2.0 WITH Classpath-exception-2.0"
-      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-  [[metadata.dependencies]]
-    id = "jre"
-    name = "SapMachine JRE"
-    sha256 = "4b0bcb0a15813077a7ecaf3c21041f80f524b759471b9e971896ed7cbc8d58a8"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-16.0.2/sapmachine-jre-16.0.2_linux-x64_bin.tar.gz"
-    version = "16.0.2"
-
-    [[metadata.dependencies.licenses]]
-      type = "GPL-2.0 WITH Classpath-exception-2.0"
-      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-  [[metadata.dependencies]]
-    id = "jdk"
-    name = "SapMachine JDK"
     sha256 = "247fbd090b4584f725ab92e5747d31a181ff77fbb31dcaea449574862ce5a249"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
     uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.1/sapmachine-jdk-17.0.1_linux-x64_bin.tar.gz"
