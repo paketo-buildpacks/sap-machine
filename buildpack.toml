@@ -213,9 +213,9 @@ api = "0.7"
     id = "jre"
     name = "SapMachine JRE"
     purl = "pkg:generic/sap-machine-jre@18.0.1?arch=amd64"
-    sha256 = "8d7e853bc0b770559586c1cbd4106fa2f70de841d6b289f9b209eccbb26925ba"
+    sha256 = "216c1b2666149117647895dd999fe0c73e77653bb915921d23be8add28a55a75"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-18.0.1/sapmachine-jre-18.0.1_linux-x64_bin.tar.gz"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-18.0.1.1/sapmachine-jre-18.0.1.1_linux-x64_bin.tar.gz"
     version = "18.0.1"
 
     [[metadata.dependencies.licenses]]
