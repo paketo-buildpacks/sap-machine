@@ -45,6 +45,7 @@ jobs:
               uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
               with:
                 glob: sapmachine-jdk-.+_linux-x64_bin.tar.gz
+                latest_by_creation_time: true
                 owner: SAP
                 repository: SapMachine
                 tag_filter: sapmachine-(11.*)
