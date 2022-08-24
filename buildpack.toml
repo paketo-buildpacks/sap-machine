@@ -143,9 +143,9 @@ api = "0.7"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@11.0.16?arch=amd64"
-    sha256 = "52dc3d35e683135bef651345c619ba42902b39897a655e9d1f3b2eb9385364cf"
+    sha256 = "e95b0b309bba41b04077ade8cde773e0e9152ea3800f01256abef5707258019f"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.16/sapmachine-jdk-11.0.16_linux-x64_bin.tar.gz"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-11.0.16.1/sapmachine-jdk-11.0.16.1_linux-x64_bin.tar.gz"
     version = "11.0.16"
 
     [[metadata.dependencies.licenses]]
@@ -171,9 +171,9 @@ api = "0.7"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@17.0.4?arch=amd64"
-    sha256 = "b03ad6982a023c1a16be6e8184500935cecbfcafa59a9cc65000c995dce29a0b"
+    sha256 = "f3325f56ed91d6ba840d7ef84b928be948b8f970f037fe4cfbb6194f96e51e21"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.4/sapmachine-jdk-17.0.4_linux-x64_bin.tar.gz"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.4.1/sapmachine-jdk-17.0.4.1_linux-x64_bin.tar.gz"
     version = "17.0.4"
 
     [[metadata.dependencies.licenses]]
@@ -199,9 +199,9 @@ api = "0.7"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@18.0.2?arch=amd64"
-    sha256 = "5a6a1753d5195537ba43f9d2d272ec66a5bab91ce11e56f2041aacfa23298190"
+    sha256 = "06b8caad96303cef8ad2b9012faa256d9d57146520f51b67d8778de868b0e7f9"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-18.0.2/sapmachine-jdk-18.0.2_linux-x64_bin.tar.gz"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-18.0.2.1/sapmachine-jdk-18.0.2.1_linux-x64_bin.tar.gz"
     version = "18.0.2"
 
     [[metadata.dependencies.licenses]]
