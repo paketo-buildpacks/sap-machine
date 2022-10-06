@@ -83,3 +83,25 @@ dependencies:
     tag_filter:              sapmachine-(18.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.JAVA_GITHUB_TOKEN }}
+- name:            JDK 19
+  id:              jdk
+  version_pattern: "19\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jdk-.+_linux-x64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(19.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.JAVA_GITHUB_TOKEN }}
+- name:            JRE 19
+  id:              jre
+  version_pattern: "19\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jre-.+_linux-x64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(19.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.JAVA_GITHUB_TOKEN }}
