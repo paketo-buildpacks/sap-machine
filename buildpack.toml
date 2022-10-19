@@ -237,14 +237,14 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:19.0.0:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jre:19.0.1:*:*:*:*:*:*:*"]
     id = "jre"
     name = "SapMachine JRE"
-    purl = "pkg:generic/sap-machine-jre@19.0.0?arch=amd64"
-    sha256 = "84961c9dd962e5abae90d2ecae9f74d1cc697d73d3f6597ca10c1c1ef53aaf67"
+    purl = "pkg:generic/sap-machine-jre@19.0.1?arch=amd64"
+    sha256 = "f230c375581eda3c6a542bf987dc877e2b55421f1af5ed054077e20fe4bc78a8"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-19/sapmachine-jre-19_linux-x64_bin.tar.gz"
-    version = "19.0.0"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-19.0.1/sapmachine-jre-19.0.1_linux-x64_bin.tar.gz"
+    version = "19.0.1"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
