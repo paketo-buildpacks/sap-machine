@@ -199,36 +199,6 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:18.0.2:*:*:*:*:*:*:*"]
-    deprecation_date = "2022-09-30T00:00:00Z"
-    id = "jdk"
-    name = "SapMachine JDK"
-    purl = "pkg:generic/sap-machine-jdk@18.0.2?arch=amd64"
-    sha256 = "06b8caad96303cef8ad2b9012faa256d9d57146520f51b67d8778de868b0e7f9"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-18.0.2.1/sapmachine-jdk-18.0.2.1_linux-x64_bin.tar.gz"
-    version = "18.0.2"
-
-    [[metadata.dependencies.licenses]]
-      type = "GPL-2.0 WITH Classpath-exception-2.0"
-      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-  [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:18.0.2:*:*:*:*:*:*:*"]
-    deprecation_date = "2022-09-30T00:00:00Z"
-    id = "jre"
-    name = "SapMachine JRE"
-    purl = "pkg:generic/sap-machine-jre@18.0.2?arch=amd64"
-    sha256 = "eb8895b8eaced501dd8ebb36bf010e318f54f5c88488783203f1213138ea87b8"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-18.0.2.1/sapmachine-jre-18.0.2.1_linux-x64_bin.tar.gz"
-    version = "18.0.2"
-
-    [[metadata.dependencies.licenses]]
-      type = "GPL-2.0 WITH Classpath-exception-2.0"
-      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-  [[metadata.dependencies]]
     cpes = ["cpe:2.3:a:oracle:jdk:19.0.1:*:*:*:*:*:*:*"]
     deprecation_date = "2023-03-31T00:00:00Z"
     id = "jdk"
