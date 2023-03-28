@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/sap-machine/v9
+module github.com/paketo-buildpacks/sap-machine/v10
 
 go 1.18
 
