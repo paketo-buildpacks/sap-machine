@@ -190,17 +190,17 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:17.0.8:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jre:17.0.9:*:*:*:*:*:*:*"]
     deprecation_date = "2026-09-30T00:00:00Z"
     id = "jre"
     name = "SapMachine JRE"
-    purl = "pkg:generic/sap-machine-jre@17.0.8?arch=amd64"
-    sha256 = "ad10c3cf9a65f892dbd16204c70186a5945a88a8355e8d06c200e08f5dfb8718"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-17.0.8.1.tar.gz"
-    source-sha256 = "e63f9fdf2e2e51a5bf3dc5b3fafe2e6d22dcc9a8ec04cdc78bb137fdf42987df"
+    purl = "pkg:generic/sap-machine-jre@17.0.9?arch=amd64"
+    sha256 = "869e556c33b8743ed57ec8a40b4aeb63e3dd7d65f36178445b88882c91ac901b"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-17.0.9.tar.gz"
+    source-sha256 = "7b8c2ebadee890c96bd1e9c0d0fc59fbe2a7ec556423adea10777e1b5981b899"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.8.1/sapmachine-jre-17.0.8.1_linux-x64_bin.tar.gz"
-    version = "17.0.8"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.9/sapmachine-jre-17.0.9_linux-x64_bin.tar.gz"
+    version = "17.0.9"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
