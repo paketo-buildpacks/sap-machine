@@ -297,7 +297,7 @@ api = "0.7"
     id = "jre"
     name = "SapMachine JRE"
     purl = "pkg:generic/sap-machine-jre@11.0.23?arch=arm64"
-    sha256 = "blank"
+    sha256 = "50b4cc9b6399cacccda0eed6ffafb02e0a53985a23c83be8ce0bf6758e93b5d1"
     source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-11.0.23.tar.gz"
     source-sha256 = "c091e159967c6ff5a7bc66d8f7f01d3330c6948bbf98467da5315f6c65fb7ec5"
     stacks = ["*"]
