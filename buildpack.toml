@@ -27,14 +27,6 @@ api = "0.7"
     type = "Apache-2.0"
     uri = "https://github.com/paketo-buildpacks/sap-machine/blob/main/LICENSE"
 
-[[targets]]
-os = "linux"
-arch = "amd64"
-
-[[targets]]
-os = "linux"
-arch = "arm64"
-
 [metadata]
   include-files = ["LICENSE", "NOTICE", "README.md", "bin/build", "bin/detect", "bin/helper", "bin/main", "buildpack.toml"]
   pre-package = "scripts/build.sh"
@@ -288,7 +280,7 @@ arch = "arm64"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@11.0.23?arch=arm64"
-    sha256 = "blank"
+    sha256 = "b34c93c3e0829ff361e7f7191b6315a886befcafb51d6c61ca401904485814d7"
     source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-11.0.23.tar.gz"
     source-sha256 = "c091e159967c6ff5a7bc66d8f7f01d3330c6948bbf98467da5315f6c65fb7ec5"
     stacks = ["*"]
@@ -328,7 +320,7 @@ arch = "arm64"
     stacks = ["*"]
     uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.11/sapmachine-jdk-17.0.11_linux-aarch64_bin.tar.gz"
     version = "17.0.11"
-  
+
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
@@ -345,7 +337,7 @@ arch = "arm64"
     stacks = ["*"]
     uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.11/sapmachine-jre-17.0.11_linux-aarch64_bin.tar.gz"
     version = "17.0.11"
-  
+
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
@@ -362,7 +354,7 @@ arch = "arm64"
     stacks = ["*"]
     uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3/sapmachine-jdk-21.0.3_linux-aarch64_bin.tar.gz"
     version = "21.0.3"
-  
+
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
@@ -379,7 +371,7 @@ arch = "arm64"
     stacks = ["*"]
     uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3/sapmachine-jre-21.0.3_linux-aarch64_bin.tar.gz"
     version = "21.0.3"
-  
+
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
@@ -396,7 +388,7 @@ arch = "arm64"
     stacks = ["*"]
     uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-22.0.1/sapmachine-jdk-22.0.1_linux-aarch64_bin.tar.gz"
     version = "22.0.1"
-  
+
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
@@ -413,11 +405,18 @@ arch = "arm64"
     stacks = ["*"]
     uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-22.0.1/sapmachine-jre-22.0.1_linux-aarch64_bin.tar.gz"
     version = "22.0.1"
-  
+
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
-
 [[stacks]]
   id = "*"
+
+[[targets]]
+  arch = "amd64"
+  os = "linux"
+
+[[targets]]
+  arch = "arm64"
+  os = "linux"
