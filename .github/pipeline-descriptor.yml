@@ -86,3 +86,25 @@ dependencies:
     tag_filter:              sapmachine-(21.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+- name:            JDK 22
+  id:              jdk
+  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jdk-.+_linux-x64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(22.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+- name:            JRE 22
+  id:              jre
+  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jre-.+_linux-x64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(22.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
