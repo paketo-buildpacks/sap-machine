@@ -2,6 +2,9 @@ github:
   username: ${{ secrets.JAVA_GITHUB_USERNAME }}
   token:    ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
 
+helpers:
+  "bin/helper": "github.com/paketo-buildpacks/libjvm/cmd/helper"
+
 codeowners:
 - path:  "*"
   owner: "@paketo-buildpacks/java-maintainers"
@@ -108,3 +111,101 @@ dependencies:
     tag_filter:              sapmachine-(22.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+  
+# ARM64
+- name:            JDK 11 ARM64
+  id:              jdk
+  version_pattern: "11\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jdk-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(11.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
+- name:            JRE 11 ARM64
+  id:              jre
+  version_pattern: "11\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jre-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(11.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
+- name:            JDK 17 ARM64
+  id:              jdk
+  version_pattern: "17\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jdk-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(17.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
+- name:            JRE 17 ARM64
+  id:              jre
+  version_pattern: "17\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jre-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(17.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
+- name:            JDK 21 ARM64
+  id:              jdk
+  version_pattern: "21\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jdk-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(21.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
+- name:            JRE 21 ARM64
+  id:              jre
+  version_pattern: "21\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jre-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(21.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
+- name:            JDK 22 ARM64
+  id:              jdk
+  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jdk-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(22.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
+- name:            JRE 22 ARM64
+  id:              jre
+  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+  with:
+    glob:                    sapmachine-jre-.+_linux-aarch64_bin.tar.gz
+    owner:                   SAP
+    repository:              SapMachine
+    tag_filter:              sapmachine-(22.*)
+    latest_by_creation_time: true
+    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+    arch: "arm64"
