@@ -207,17 +207,17 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:21.0.3:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:21.0.4:*:*:*:*:*:*:*"]
     deprecation_date = "2028-09-30T00:00:00Z"
     id = "jdk"
     name = "SapMachine JDK"
-    purl = "pkg:generic/sap-machine-jdk@21.0.3?arch=amd64"
-    sha256 = "774bb6f5cf54ff22a64c289edf64c4772efe3f200e4f7e781d5e316651290e81"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-21.0.3.tar.gz"
-    source-sha256 = "a7288e70b0da4a062a5adb4e6a5f65cfba6389357f87e41e4850656e5dd60250"
+    purl = "pkg:generic/sap-machine-jdk@21.0.4?arch=amd64"
+    sha256 = "9c4779b48a9d6f8120901e6c095227baebd2af2d7d7db1b0196c144ae9b9397d"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-21.0.4.tar.gz"
+    source-sha256 = "373639ec02731c160c619e898dac3d53d06d5c95f1c9af8d11bfbb92a5f7bbf6"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.3/sapmachine-jdk-21.0.3_linux-x64_bin.tar.gz"
-    version = "21.0.3"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.4/sapmachine-jdk-21.0.4_linux-x64_bin.tar.gz"
+    version = "21.0.4"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
