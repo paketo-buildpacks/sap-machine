@@ -89,26 +89,26 @@ dependencies:
     tag_filter:              sapmachine-(21.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
-- name:            JDK 22
+- name:            JDK 23
   id:              jdk
-  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  version_pattern: "23\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
   with:
     glob:                    sapmachine-jdk-.+_linux-x64_bin.tar.gz
     owner:                   SAP
     repository:              SapMachine
-    tag_filter:              sapmachine-(22.*)
+    tag_filter:              sapmachine-(23.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
-- name:            JRE 22
+- name:            JRE 23
   id:              jre
-  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  version_pattern: "23\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
   with:
     glob:                    sapmachine-jre-.+_linux-x64_bin.tar.gz
     owner:                   SAP
     repository:              SapMachine
-    tag_filter:              sapmachine-(22.*)
+    tag_filter:              sapmachine-(23.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
   
@@ -185,27 +185,27 @@ dependencies:
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
     arch: "arm64"
-- name:            JDK 22 ARM64
+- name:            JDK 23 ARM64
   id:              jdk
-  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  version_pattern: "23\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
   with:
     glob:                    sapmachine-jdk-.+_linux-aarch64_bin.tar.gz
     owner:                   SAP
     repository:              SapMachine
-    tag_filter:              sapmachine-(22.*)
+    tag_filter:              sapmachine-(23.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
     arch: "arm64"
-- name:            JRE 22 ARM64
+- name:            JRE 23 ARM64
   id:              jre
-  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  version_pattern: "23\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
   with:
     glob:                    sapmachine-jre-.+_linux-aarch64_bin.tar.gz
     owner:                   SAP
     repository:              SapMachine
-    tag_filter:              sapmachine-(22.*)
+    tag_filter:              sapmachine-(23.*)
     latest_by_creation_time: true
     token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
     arch: "arm64"
