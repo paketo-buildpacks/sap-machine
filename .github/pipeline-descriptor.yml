@@ -23,28 +23,6 @@ docker_credentials:
   password: ${{ secrets.PAKETO_BUILDPACKS_DOCKERHUB_PASSWORD }}
 
 dependencies:
-- name:            JDK 11
-  id:              jdk
-  version_pattern: "11\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
-  with:
-    glob:                    sapmachine-jdk-.+_linux-x64_bin.tar.gz
-    owner:                   SAP
-    repository:              SapMachine
-    tag_filter:              sapmachine-(11.*)
-    latest_by_creation_time: true
-    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
-- name:            JRE 11
-  id:              jre
-  version_pattern: "11\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
-  with:
-    glob:                    sapmachine-jre-.+_linux-x64_bin.tar.gz
-    owner:                   SAP
-    repository:              SapMachine
-    tag_filter:              sapmachine-(11.*)
-    latest_by_creation_time: true
-    token:                   ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
 - name:            JDK 17
   id:              jdk
   version_pattern: "17\\.[\\d]+\\.[\\d]+"
