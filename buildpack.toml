@@ -139,17 +139,17 @@ api = "0.7"
     name = "JAVA_TOOL_OPTIONS"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:17.0.13:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:17.0.14:*:*:*:*:*:*:*"]
     deprecation_date = "2026-09-30T00:00:00Z"
     id = "jdk"
     name = "SapMachine JDK"
-    purl = "pkg:generic/sap-machine-jdk@17.0.13?arch=amd64"
-    sha256 = "eaf562bf24e75cb14d46af6590bc9a5da3fd5a8ea1124821ac90b7588d6c4d7a"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-17.0.13.tar.gz"
-    source-sha256 = "e7377af1e520629e27e65905d1e5cdc9686fd0aa14b1d542d487ece897377fa6"
+    purl = "pkg:generic/sap-machine-jdk@17.0.14?arch=amd64"
+    sha256 = "5d42032738a1d2e5ce7c0b08a9ace3f678158c01670b8f21b9701e38eda6127b"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-17.0.14.tar.gz"
+    source-sha256 = "bd1023360b7d44368c25ec7f24b473a8136c350c62da2762cce77a91107d408e"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.13/sapmachine-jdk-17.0.13_linux-x64_bin.tar.gz"
-    version = "17.0.13"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-17.0.14/sapmachine-jdk-17.0.14_linux-x64_bin.tar.gz"
+    version = "17.0.14"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
