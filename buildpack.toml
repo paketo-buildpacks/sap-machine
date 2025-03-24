@@ -207,34 +207,34 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:23.0.2:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-03-18T00:00:00Z"
+    cpes = ["cpe:2.3:a:oracle:jdk:24.0.0:*:*:*:*:*:*:*"]
+    deprecation_date = "2025-09-18T00:00:00Z"
     id = "jdk"
     name = "SapMachine JDK"
-    purl = "pkg:generic/sap-machine-jdk@23.0.2?arch=amd64"
-    sha256 = "09448bdd259b6550237046a4148d1c6cd9d60af1e3d59ee5a4e1b7d6be265a6c"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-23.0.2.tar.gz"
-    source-sha256 = "172445047f90dcaa67e72ff6e84b93cf3bfad962dd39d8d2a86befd42b4858e7"
+    purl = "pkg:generic/sap-machine-jdk@24.0.0?arch=amd64"
+    sha256 = "1455b8ad267251de4a2e79e4394b17a64d12af9b1fba8dde380b965561b6137e"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-24.tar.gz"
+    source-sha256 = "2252068703ec84be4f4a186f38316636c349916f191a9e5cfdb33aa638d64bba"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-23.0.2/sapmachine-jdk-23.0.2_linux-x64_bin.tar.gz"
-    version = "23.0.2"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-24/sapmachine-jdk-24_linux-x64_bin.tar.gz"
+    version = "24.0.0"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:23.0.2:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-03-18T00:00:00Z"
+    cpes = ["cpe:2.3:a:oracle:jre:24.0.0:*:*:*:*:*:*:*"]
+    deprecation_date = "2025-09-18T00:00:00Z"
     id = "jre"
     name = "SapMachine JRE"
-    purl = "pkg:generic/sap-machine-jre@23.0.2?arch=amd64"
-    sha256 = "63ccb4cfae6add472d5c293b22b0124d27553a8ba207f7bfeac66dd1976b2446"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-23.0.2.tar.gz"
-    source-sha256 = "172445047f90dcaa67e72ff6e84b93cf3bfad962dd39d8d2a86befd42b4858e7"
+    purl = "pkg:generic/sap-machine-jre@24.0.0?arch=amd64"
+    sha256 = "5fcae380dd1166fa7941adf9ae5f21225d4e2c4fc75128b16a101e41ac477c27"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-24.tar.gz"
+    source-sha256 = "2252068703ec84be4f4a186f38316636c349916f191a9e5cfdb33aa638d64bba"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-23.0.2/sapmachine-jre-23.0.2_linux-x64_bin.tar.gz"
-    version = "23.0.2"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-24/sapmachine-jre-24_linux-x64_bin.tar.gz"
+    version = "24.0.0"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -309,34 +309,34 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:23.0.2:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-03-18T00:00:00Z"
+    cpes = ["cpe:2.3:a:oracle:jdk:24.0.0:*:*:*:*:*:*:*"]
+    deprecation_date = "2025-09-18T00:00:00Z"
     id = "jdk"
     name = "SapMachine JDK"
-    purl = "pkg:generic/sap-machine-jdk@23.0.2?arch=arm64"
-    sha256 = "5f82af9532a391c80c4b7ee44e7c4262ea2b0e552b10fe92facbd7b461950fbb"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-23.0.2.tar.gz"
-    source-sha256 = "172445047f90dcaa67e72ff6e84b93cf3bfad962dd39d8d2a86befd42b4858e7"
+    purl = "pkg:generic/sap-machine-jdk@24.0.0?arch=arm64"
+    sha256 = "2fba750a5afdb192c816fa5def46502b3d8df972c3759cc573cbb855e46173bf"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-24.tar.gz"
+    source-sha256 = "2252068703ec84be4f4a186f38316636c349916f191a9e5cfdb33aa638d64bba"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-23.0.2/sapmachine-jdk-23.0.2_linux-aarch64_bin.tar.gz"
-    version = "23.0.2"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-24/sapmachine-jdk-24_linux-aarch64_bin.tar.gz"
+    version = "24.0.0"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:23.0.2:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-03-18T00:00:00Z"
+    cpes = ["cpe:2.3:a:oracle:jre:24.0.0:*:*:*:*:*:*:*"]
+    deprecation_date = "2025-09-18T00:00:00Z"
     id = "jre"
     name = "SapMachine JRE"
-    purl = "pkg:generic/sap-machine-jre@23.0.2?arch=arm64"
-    sha256 = "77d93183b84586207ff9c13bb59026558b61ff01f0a4e2416122ae1597b5a3e8"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-23.0.2.tar.gz"
-    source-sha256 = "172445047f90dcaa67e72ff6e84b93cf3bfad962dd39d8d2a86befd42b4858e7"
+    purl = "pkg:generic/sap-machine-jre@24.0.0?arch=arm64"
+    sha256 = "6f671c1978a7ab79d88496c56a280f7222f565db527b7de6f4ca89d89438371a"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-24.tar.gz"
+    source-sha256 = "2252068703ec84be4f4a186f38316636c349916f191a9e5cfdb33aa638d64bba"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-23.0.2/sapmachine-jre-23.0.2_linux-aarch64_bin.tar.gz"
-    version = "23.0.2"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-24/sapmachine-jre-24_linux-aarch64_bin.tar.gz"
+    version = "24.0.0"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"

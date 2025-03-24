@@ -1,4 +1,4 @@
-name: Update JDK 23 ARM64
+name: Update JDK 24
 "on":
     schedule:
         - cron: 0 5 * * 1-5
@@ -27,12 +27,11 @@ jobs:
             - id: dependency
               uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
               with:
-                arch: arm64
-                glob: sapmachine-jdk-.+_linux-aarch64_bin.tar.gz
+                glob: sapmachine-jdk-.+_linux-x64_bin.tar.gz
                 latest_by_creation_time: true
                 owner: SAP
                 repository: SapMachine
-                tag_filter: sapmachine-(23.*)
+                tag_filter: sapmachine-(24.*)
                 token: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
             - name: Update Buildpack Dependency
               id: buildpack
@@ -80,7 +79,7 @@ jobs:
                 echo "new-version=${VERSION}" >> "$GITHUB_OUTPUT"
                 echo "version-label=${LABEL}" >> "$GITHUB_OUTPUT"
               env:
-                ARCH: arm64
+                ARCH: ""
                 CPE: ${{ steps.dependency.outputs.cpe }}
                 CPE_PATTERN: ""
                 ID: jdk
@@ -91,18 +90,18 @@ jobs:
                 SOURCE_URI: ${{ steps.dependency.outputs.source }}
                 URI: ${{ steps.dependency.outputs.uri }}
                 VERSION: ${{ steps.dependency.outputs.version }}
-                VERSION_PATTERN: 23\.[\d]+\.[\d]+
+                VERSION_PATTERN: 24\.[\d]+\.[\d]+
             - uses: peter-evans/create-pull-request@v6
               with:
                 author: ${{ secrets.JAVA_GITHUB_USERNAME }} <${{ secrets.JAVA_GITHUB_USERNAME }}@users.noreply.github.com>
-                body: Bumps `JDK 23 ARM64` from `${{ steps.buildpack.outputs.old-version }}` to `${{ steps.buildpack.outputs.new-version }}`.
-                branch: update/buildpack/jdk-23-arm-64
+                body: Bumps `JDK 24` from `${{ steps.buildpack.outputs.old-version }}` to `${{ steps.buildpack.outputs.new-version }}`.
+                branch: update/buildpack/jdk-24
                 commit-message: |-
-                    Bump JDK 23 ARM64 from ${{ steps.buildpack.outputs.old-version }} to ${{ steps.buildpack.outputs.new-version }}
+                    Bump JDK 24 from ${{ steps.buildpack.outputs.old-version }} to ${{ steps.buildpack.outputs.new-version }}
 
-                    Bumps JDK 23 ARM64 from ${{ steps.buildpack.outputs.old-version }} to ${{ steps.buildpack.outputs.new-version }}.
+                    Bumps JDK 24 from ${{ steps.buildpack.outputs.old-version }} to ${{ steps.buildpack.outputs.new-version }}.
                 delete-branch: true
                 labels: ${{ steps.buildpack.outputs.version-label }}, type:dependency-upgrade
                 signoff: true
-                title: Bump JDK 23 ARM64 from ${{ steps.buildpack.outputs.old-version }} to ${{ steps.buildpack.outputs.new-version }}
+                title: Bump JDK 24 from ${{ steps.buildpack.outputs.old-version }} to ${{ steps.buildpack.outputs.new-version }}
                 token: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
