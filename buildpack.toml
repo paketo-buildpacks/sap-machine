@@ -208,7 +208,7 @@ api = "0.7"
 
   [[metadata.dependencies]]
     cpes = ["cpe:2.3:a:oracle:jdk:25.0.0:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-09-18T00:00:00Z"
+    deprecation_date = "2030-09-30T00:00:00Z"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@25.0.0?arch=amd64"
@@ -225,7 +225,7 @@ api = "0.7"
 
   [[metadata.dependencies]]
     cpes = ["cpe:2.3:a:oracle:jre:25.0.0:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-09-18T00:00:00Z"
+    deprecation_date = "2030-09-30T00:00:00Z"
     id = "jre"
     name = "SapMachine JRE"
     purl = "pkg:generic/sap-machine-jre@25.0.0?arch=amd64"
@@ -310,7 +310,7 @@ api = "0.7"
 
   [[metadata.dependencies]]
     cpes = ["cpe:2.3:a:oracle:jdk:25.0.0:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-09-18T00:00:00Z"
+    deprecation_date = "2030-09-30T00:00:00Z"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@25.0.0?arch=arm64"
@@ -327,7 +327,7 @@ api = "0.7"
 
   [[metadata.dependencies]]
     cpes = ["cpe:2.3:a:oracle:jre:25.0.0:*:*:*:*:*:*:*"]
-    deprecation_date = "2025-09-18T00:00:00Z"
+    deprecation_date = "2030-09-30T00:00:00Z"
     id = "jre"
     name = "SapMachine JRE"
     purl = "pkg:generic/sap-machine-jre@25.0.0?arch=arm64"
