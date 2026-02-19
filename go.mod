@@ -1,6 +1,6 @@
 module github.com/paketo-buildpacks/sap-machine/v10
 
-go 1.25
+go 1.26
 
 require (
 	github.com/paketo-buildpacks/libjvm v1.46.0
