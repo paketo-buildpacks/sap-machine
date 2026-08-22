@@ -212,11 +212,11 @@ api = "0.7"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@25.0.4?arch=amd64"
-    sha256 = "fc3851ec41715a4fccb30820a10c8ceaac161175567ea784de7dffae47eedc3a"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-25.0.4.tar.gz"
-    source-sha256 = "d98ef346f7df005e51a159584a7609137b30417d20a5baf47001010fa0035fbb"
+    sha256 = "d637b0e791f59af16f3a48ccb1e509c37cded76d8cc2c0aaf9045c13351142a3"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-25.0.4.1.tar.gz"
+    source-sha256 = "1e43bd1d778000a792a361f0db971a1880548a80afc988ece29877208fddd043"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.4/sapmachine-jdk-25.0.4_linux-x64_bin.tar.gz"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.4.1/sapmachine-jdk-25.0.4.1_linux-x64_bin.tar.gz"
     version = "25.0.4"
 
     [[metadata.dependencies.licenses]]
