@@ -178,11 +178,11 @@ api = "0.7"
     id = "jdk"
     name = "SapMachine JDK"
     purl = "pkg:generic/sap-machine-jdk@21.0.13?arch=amd64"
-    sha256 = "5f804c899d019a74879bde3e8c6c55ba00199b1bc6af7643128284b02c5a1aa8"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-21.0.13.tar.gz"
-    source-sha256 = "5c5a165c125fac9b887770321c10c602835e996ed7060490d6cafd4dab699692"
+    sha256 = "149bc2324183f0c6ee5402f9550c2ddc8283e94605c45f4110e3c8c5b98b9c5e"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-21.0.13.0.3.tar.gz"
+    source-sha256 = "9dab53dc8f835c4566e48b849846b502d98a2de1730dbb18eb75e0757fdf4a9d"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.13/sapmachine-jdk-21.0.13_linux-x64_bin.tar.gz"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-21.0.13.0.3/sapmachine-jdk-21.0.13.0.3_linux-x64_bin.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
