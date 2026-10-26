@@ -331,11 +331,11 @@ api = "0.7"
     id = "jre"
     name = "SapMachine JRE"
     purl = "pkg:generic/sap-machine-jre@25.0.5?arch=arm64"
-    sha256 = "47a7eff3c0acea7487e172996c21d89e2bc47e93dcb137d4a7103aad0cd2be3b"
-    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-25.0.5.tar.gz"
-    source-sha256 = "32f160d0fbbcc0ef5a8c87e091728a4ff0a6be031d304273eb84231d98392ffc"
+    sha256 = "25e32bba40cdded682eb898a4bd7e7626786dbdb4aaf989889b4f86ffe94b950"
+    source = "https://github.com/SAP/SapMachine/archive/refs/tags/sapmachine-25.0.5.0.3.tar.gz"
+    source-sha256 = "422984fb464d0ae3673b573940e7debc32d8993293029162512761aa60a7a504"
     stacks = ["*"]
-    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5/sapmachine-jre-25.0.5_linux-aarch64_bin.tar.gz"
+    uri = "https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.5.0.3/sapmachine-jre-25.0.5.0.3_linux-aarch64_bin.tar.gz"
     version = "25.0.5"
 
     [[metadata.dependencies.licenses]]
